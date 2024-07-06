@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nginx-domain
+  labels:
+    name: nginx-domain
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: apache-domain
+  labels:
+    name: apache-domain
